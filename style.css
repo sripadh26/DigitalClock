@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #00ffe0;
+}
+
+body.light {
+  background: linear-gradient(135deg, #ffffff, #e0e0e0);
+  color: #333;
+}
+
+.clock-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+#clock {
+  font-size: 5rem;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+}
+
+.toggle-wrapper {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#modeToggle {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: inherit;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#modeToggle:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
