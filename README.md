@@ -9,17 +9,6 @@ A sleek, modern, and professional digital clock built with **HTML**, **CSS**, an
 - 💎 Glassmorphism-inspired UI design
 - ⚡ Smooth transitions and responsive layout
 
-### 🖼️ Preview
-
-![digital clock preview](preview.png) <!-- (Optional: Add a screenshot here) -->
-
----
-
-### 🚀 Live Demo
-
-👉 [View Live on GitHub Pages](https://your-username.github.io/digital-clock/)  
-> Replace with your actual link after deployment.
-
 ---
 
 ### 📁 Technologies Used
